@@ -1,0 +1,36 @@
+@baseUrl = http://localhost:3000
+
+### Lista livros
+
+GET {{baseUrl}}/api/books
+
+### Cria um novo livro
+
+POST {{baseUrl}}/api/books 
+Content-Type: application/json
+
+{
+    "title": "Livro 1",
+    "description": "Descrição do Livro 1",
+    "pageCount": 27,
+    "excerpt": "Um livro sobre magia!",
+    "publishDate": "2019-07-20T00:00:00Z",
+    "photoUrl": "https:essaurlnaoexiste.com"
+}
+
+### Pesquisa livro específico
+
+GET {{baseUrl}}/api/books/6743c05c068bea26a7526ac1
+
+### Altera livro específico
+
+PUT {{baseUrl}}/api/books/6743c05c068bea26a7526ac1 
+Content-Type: application/json
+
+{
+    "title": "Livro 11"
+}
+
+### Exclui livro específico
+
+DELETE {{baseUrl}}/api/books/6743c05c068bea26a7526ac1
