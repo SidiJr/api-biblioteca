@@ -6,12 +6,8 @@ const AuthorsSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  lastname: {
+  lastName: {
     type: String,
-    required: true,
-  },
-  idBook: {
-    type: Number,
     required: true,
   },
   createdAt: {

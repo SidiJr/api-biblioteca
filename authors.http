@@ -1,0 +1,32 @@
+@baseUrl = http://localhost:3000
+
+### Lista livros
+
+GET {{baseUrl}}/api/authors
+
+### Cria um novo livro
+
+POST {{baseUrl}}/api/authors 
+Content-Type: application/json
+
+{
+    "firstName": "João",
+    "lastName": "Silva"
+}
+
+### Pesquisa livro específico
+
+GET {{baseUrl}}/api/authors/6743c05c068bea26a7526ac1
+
+### Altera livro específico
+
+PUT {{baseUrl}}/api/authors/6743c05c068bea26a7526ac1 
+Content-Type: application/json
+
+{
+    "lastName": "Livro 11"
+}
+
+### Exclui livro específico
+
+DELETE {{baseUrl}}/api/authors/6743c05c068bea26a7526ac1
