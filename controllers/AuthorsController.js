@@ -4,7 +4,7 @@ const Authors = mongoose.model("Authors");
 module.exports = {
   async index(req, res) {
     const { page = 1 } = req.query;
-    const authors = await Authors.paginate({}, { page, limit: 10 });
+    const authors = await Authors.paginate({}, { page, limit: 100 });
     return res.json(authors);
   },
 
