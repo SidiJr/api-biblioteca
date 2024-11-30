@@ -10,7 +10,7 @@ POST {{baseUrl}}/api/authors
 Content-Type: application/json
 
 {
-    "firstName": "Carlos",
+    "firstName": "Pedro",
     "lastName": "Silva"
 }
 

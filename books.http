@@ -15,7 +15,7 @@ Content-Type: application/json
     "pageCount": 27,
     "excerpt": "Um livro sobre magia!",
     "publishDate": "2019-07-20T00:00:00Z",
-    "photoUrl": "https:essaurlnaoexiste.com",
+    "photoUrl": "",
     "idAuthor": "67446ea8dbb6b4f6921e1fc9"
 }
 
