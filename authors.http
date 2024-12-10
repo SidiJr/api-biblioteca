@@ -10,23 +10,23 @@ POST {{baseUrl}}/api/authors
 Content-Type: application/json
 
 {
-    "firstName": "Pedro",
+    "firstName": "Roberto",
     "lastName": "Silva"
 }
 
 ### Pesquisa autor específico
 
-GET {{baseUrl}}/api/authors/6743c05c068bea26a7526ac1
+GET {{baseUrl}}/api/authors/6758488674ca2910a8502340
 
 ### Altera autor específico
 
-PUT {{baseUrl}}/api/authors/6743c05c068bea26a7526ac1 
+PUT {{baseUrl}}/api/authors/6758488674ca2910a8502340 
 Content-Type: application/json
 
 {
-    "lastName": "Livro 11"
+    "lastName": "Rosa"
 }
 
 ### Exclui autor específico
 
-DELETE {{baseUrl}}/api/authors/6743c05c068bea26a7526ac1
+DELETE {{baseUrl}}/api/authors/6758488674ca2910a8502340

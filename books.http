@@ -10,22 +10,21 @@ POST {{baseUrl}}/api/books
 Content-Type: application/json
 
 {
-    "title": "Livro Teste",
+    "title": "Livro 10",
     "description": "Descrição do Livro",
     "pageCount": 27,
     "excerpt": "Um livro sobre magia!",
     "publishDate": "2019-07-20T00:00:00Z",
-    "photoUrl": "",
     "idAuthor": "67446ea8dbb6b4f6921e1fc9"
 }
 
 ### Pesquisa livro específico
 
-GET {{baseUrl}}/api/books/6743c05c068bea26a7526ac1
+GET {{baseUrl}}/api/books/675848d974ca2910a8502350
 
 ### Altera livro específico
 
-PUT {{baseUrl}}/api/books/6743c05c068bea26a7526ac1 
+PUT {{baseUrl}}/api/books/675848d974ca2910a8502350 
 Content-Type: application/json
 
 {
@@ -34,4 +33,4 @@ Content-Type: application/json
 
 ### Exclui livro específico
 
-DELETE {{baseUrl}}/api/books/6743c05c068bea26a7526ac1
+DELETE {{baseUrl}}/api/books/675848d974ca2910a8502350
