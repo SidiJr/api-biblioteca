@@ -23,10 +23,6 @@ const BooksSchema = new mongoose.Schema({
     type: Date,
     required: true,
   },
-  photoUrl: {
-    type: String,
-    required: true,
-  },
   idAuthor: {
     type: String,
     required: true,
